@@ -173,28 +173,27 @@ position: relative;
 
 .profile01 {
 position: absolute;
+z-index: 5;
 }
 
 .profile02 {
 position: absolute;
 right: 0px;
+z-index: 5;
 }
 
 .profile03 {
 position: absolute;
 right: 180px;
 top:240px;
+z-index: 5;
 }
+
 
 .chamaleon {
 position: relative;
 }
 
-
-#camaleao {
-filter: saturate(1);
-transition-duration: 0.4s;
-}
 
 #camaleao:hover {
 filter: saturate(0);
@@ -368,11 +367,18 @@ gap:52px;
 text-align: center;
 }
 
-.profile03 {
-position: absolute;
-right: 101px;
-top: 153px;
+.profile01 {
+display:none;
 }
+
+.profile02 {
+display:none;
+}
+
+.profile03 {
+display:none;
+}
+
 
 .container .hero .hero-text p {
 margin-bottom: 35px;
@@ -413,9 +419,8 @@ flex-direction: column;
 margin-top:60px;
 }
 
-
 .sobre {
-margin-top: 61px;
+margin-top: 50px;
 display: flex;
 align-items: center;
 justify-content: space-between;
