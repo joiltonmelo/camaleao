@@ -225,7 +225,7 @@ gap: 32px;
 }
 
 .card {
-max-width: 384px;
+max-width: 360px;
 }
 
 .card h3 {
@@ -235,6 +235,8 @@ margin-bottom:16px;
 
 .card p {
 margin-bottom:22px;
+font-size: 14px;
+line-height: 26px;
 opacity: 0.7;
 }
 
